@@ -40,7 +40,7 @@ function Chalisha() {
           कानन कुण्डल कुँचित केसा ॥४
         </h1>
       </div>
-      <div className="four text-burlywood">
+      <div className="four text-white">
         <h1 className="fw-600 px-3 pt-3">
           <strong>
             हाथ बज्र अरु ध्वजा बिराजै । <br />
@@ -240,7 +240,11 @@ function Chalisha() {
           लखन सीता सहित, <br /> हृदय बसहु सुर भूप ॥
         </h1>
       </div>
-      {/* <div className="eighteen"></div> */}
+      <div className="eighteen text-white">
+        <h1 className="fs-3em text-center">
+          बोलो सियावर रामचंद्र की जय । <br /> पवनसुत हनुमान की जय ।।
+        </h1>
+      </div>
     </div>
   );
 }
