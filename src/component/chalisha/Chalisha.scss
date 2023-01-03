@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Laila:wght@300;400;500;600;700&display=swap");
+* {
+  font-family: "Kalam", cursive;
+  font-family: "Laila", sans-serif;
+}
+.text-end {
+  text-align: end;
+}
+.text-burlywood {
+  color: burlywood;
+}
+.text-springgreen {
+  color: springgreen;
+}
+.text-lightyellow {
+  color: lightyellow;
+}
+@mixin background-property {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin flex-start {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+}
+.one {
+  background-image: url("../../images/1.jpg");
+  @include background-property;
+  @include flex-center();
+}
+.two {
+  background-image: url("../../images/2.jpg");
+  @include background-property;
+}
+.three {
+  background-image: url("../../images/3.jpg");
+  @include background-property;
+}
+.four {
+  background-image: url("../../images/14.jpg");
+  @include background-property;
+}
+.five {
+  background-image: url("../../images/5.jpg");
+  @include background-property;
+}
+.six {
+  background-image: url("../../images/6.jpg");
+  @include background-property;
+}
+.seven {
+  background-image: url("../../images/7.webp");
+  @include background-property;
+}
+.eight {
+  background-image: url("../../images/8.jpg");
+  @include background-property;
+}
+.nine {
+  background-image: url("../../images/9.jpg");
+  @include background-property;
+}
+.ten {
+  background-image: url("../../images/10.jpg");
+  @include background-property;
+}
+.eleven {
+  background-image: url("../../images/11.jpg");
+  @include background-property;
+}
+.twelve {
+  background-image: url("../../images/12.jpg");
+  @include background-property;
+}
+.thirteen {
+  background-image: url("../../images/13.jpg");
+  @include background-property;
+}
+.forteen {
+  background-image: url("../../images/15.jpg");
+  @include background-property;
+}
+.fifteen {
+  background-image: url("../../images/16.jpg");
+  @include background-property;
+}
+.sixteen {
+  background-image: url("../../images/17.jpg");
+  @include background-property;
+}
+.seventeen {
+  background-image: url("../../images/18.jpg");
+  @include background-property;
+  @include flex-center;
+}
+.eighteen {
+  background-image: url("../../images/19.jpg");
+  @include background-property;
+}
